@@ -27,7 +27,7 @@
         <tr>
             <td align="center">FR1.3</td>
             <td>Користувач може завантажити будь-яку з доступної скульптури для отримання можливості подальшого офлайн-доступу до неї</td>
-            <td>Literature</td><td>findById()</td>
+            <td>Sculpture</td><td>findById()</td>
         </tr>
         <tr>
             <td align="center">FR1.4</td>
