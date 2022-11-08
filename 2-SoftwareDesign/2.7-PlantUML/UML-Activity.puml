@@ -1,0 +1,22 @@
+@startuml
+
+title Activity Diagram of Sculpture.publish() method
+
+start
+
+:The program finds certain sculpture in the system; 
+note right: Using SculptureDAO repository
+
+if (Was Sculpture Found?) then (yes)
+    if (Was Found Sculpture Applied By Administrator?) then (yes)
+      :Publishing the sculpture!;
+    else (no)
+      :Your sculpture was not applied by administrator!;
+    endif
+else (no)
+  :Requested sculpture was not found!;
+endif
+
+stop
+
+@enduml
